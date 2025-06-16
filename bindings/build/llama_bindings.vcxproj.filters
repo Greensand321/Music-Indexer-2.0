@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\INSPIRON 3847\Documents\MEGAsync\Design Software\Music Index\Music_Indexer\bindings\llama_bindings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\INSPIRON 3847\Documents\MEGAsync\Design Software\Music Index\Music_Indexer\bindings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{499DDC7A-8FCC-3BAA-A648-3AED64ED385A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

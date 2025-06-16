@@ -1,0 +1,10 @@
+^C:\USERS\INSPIRON 3847\DOCUMENTS\MEGASYNC\DESIGN SOFTWARE\MUSIC INDEX\MUSIC_INDEXER\BINDINGS\BUILD\CMAKEFILES\CCE8C6043AFD8B5661DE6045DD844E8C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/INSPIRON 3847/Documents/MEGAsync/Design Software/Music Index/Music_Indexer/bindings" "-BC:/Users/INSPIRON 3847/Documents/MEGAsync/Design Software/Music Index/Music_Indexer/bindings/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/INSPIRON 3847/Documents/MEGAsync/Design Software/Music Index/Music_Indexer/bindings/build/llama_bindings.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
